@@ -33,7 +33,7 @@ public class HumanbodyComponentSpace : MonoBehaviour
     {
         
 
-        bool IsTrackedHuman = CMUnity.CMHumanAttitude(Config.Instance.ServerIP, Config.Instance.CMTrackPreset.Humans[0], out pos,  rot, isSegmentDetected);
+        bool IsTrackedHuman = CMVrpn.CMHumanAttitude(Config.Instance.ServerIP, Config.Instance.CMTrackPreset.Humans[0], out pos,  rot, isSegmentDetected);
 
         if (IsTrackedHuman)
         {

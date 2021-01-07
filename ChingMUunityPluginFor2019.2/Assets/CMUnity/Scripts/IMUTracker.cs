@@ -7,7 +7,7 @@ public class IMUTracker : MonoBehaviour {
 
    
     Transform Eye = null;
-    CMUnity.DevicePose pose;
+    CMVrpn.DevicePose pose;
     Vector3 Pos;
     Quaternion Rot;
 
@@ -24,8 +24,8 @@ public class IMUTracker : MonoBehaviour {
         pose.position = InputTracking.GetLocalPosition(XRNode.CenterEye);
         pose.orientation = InputTracking.GetLocalRotation(XRNode.CenterEye);
    
-        Pos = CMUnity.CMPosWithImu(Config.Instance.ServerIP, Config.Instance.CMTrackPreset.IMUBodies[0], pose);
-        Rot = CMUnity.CMQuatWithImu(Config.Instance.ServerIP, Config.Instance.CMTrackPreset.IMUBodies[0], pose);
+        Pos = CMVrpn.CMPosWithImu(Config.Instance.ServerIP, Config.Instance.CMTrackPreset.IMUBodies[0], pose);
+        Rot = CMVrpn.CMQuatWithImu(Config.Instance.ServerIP, Config.Instance.CMTrackPreset.IMUBodies[0], pose);
 
         Eye.position = Pos;
         Eye.rotation = Rot;

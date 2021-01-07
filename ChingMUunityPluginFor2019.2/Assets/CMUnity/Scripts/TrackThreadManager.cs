@@ -6,7 +6,7 @@ public class TrackThreadManager : MonoBehaviour
 {
     private void Awake()
     {
-        CMUnity.CMUnityStart();
+        CMVrpn.CMUnityStart();
     }
     // Use this for initialization
     void Start()
@@ -22,6 +22,6 @@ public class TrackThreadManager : MonoBehaviour
 
     private void OnDestroy()
     {
-        CMUnity.CMUnityQuit();
+        CMVrpn.CMUnityQuit();
     }
 }

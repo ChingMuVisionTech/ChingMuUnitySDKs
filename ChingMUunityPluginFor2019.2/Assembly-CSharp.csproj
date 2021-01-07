@@ -66,7 +66,7 @@
     <Compile Include="Assets\CMUnity\Scripts\button.cs" />
     <Compile Include="Assets\CMUnity\Scripts\ChingMU_HumanBones.cs" />
     <Compile Include="Assets\CMUnity\Scripts\CMFullBodyCapWithHMD.cs" />
-    <Compile Include="Assets\CMUnity\Scripts\CMUnity.cs" />
+    <Compile Include="Assets\CMUnity\Scripts\CMVrpn.cs" />
     <Compile Include="Assets\CMUnity\Scripts\Config.cs" />
     <Compile Include="Assets\CMUnity\Scripts\Fps.cs" />
     <Compile Include="Assets\CMUnity\Scripts\humanbody.cs" />
@@ -87,31 +87,31 @@
     <None Include="Assets\CMUnity\Resources\Shaders\HideSoldierCharacterHead.shader" />
     <None Include="Assets\CMUnity\Resources\Shaders\Highlight.shader" />
     <Reference Include="Unity.Timeline.Editor">
-      <HintPath>F:/UnityProjects/ChingMuUnitySdk/ChingMUunityPluginFor2019.2/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+      <HintPath>E:/MyBock/2019/ChingMUunityPluginFor2019.2/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-      <HintPath>F:/UnityProjects/ChingMuUnitySdk/ChingMUunityPluginFor2019.2/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+      <HintPath>E:/MyBock/2019/ChingMUunityPluginFor2019.2/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>F:/UnityProjects/ChingMuUnitySdk/ChingMUunityPluginFor2019.2/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>E:/MyBock/2019/ChingMUunityPluginFor2019.2/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>F:/UnityProjects/ChingMuUnitySdk/ChingMUunityPluginFor2019.2/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>E:/MyBock/2019/ChingMUunityPluginFor2019.2/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-      <HintPath>F:/UnityProjects/ChingMuUnitySdk/ChingMUunityPluginFor2019.2/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+      <HintPath>E:/MyBock/2019/ChingMUunityPluginFor2019.2/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>F:/UnityProjects/ChingMuUnitySdk/ChingMUunityPluginFor2019.2/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>E:/MyBock/2019/ChingMUunityPluginFor2019.2/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-      <HintPath>F:/UnityProjects/ChingMuUnitySdk/ChingMUunityPluginFor2019.2/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+      <HintPath>E:/MyBock/2019/ChingMUunityPluginFor2019.2/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>F:/UnityProjects/ChingMuUnitySdk/ChingMUunityPluginFor2019.2/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>E:/MyBock/2019/ChingMUunityPluginFor2019.2/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-      <HintPath>F:/UnityProjects/ChingMuUnitySdk/ChingMUunityPluginFor2019.2/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <HintPath>E:/MyBock/2019/ChingMUunityPluginFor2019.2/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>D:/Unity/2019.2.12f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
