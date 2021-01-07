@@ -1,11 +1,11 @@
-# ChingMuPluginForUnity5.6
+# ChingMuPluginForUnity2017
 功能描述：在unity中使用青瞳刚体追踪与全身动捕
 数据流包括：实时人物关节数据和刚体的数据  
 ## 一、简介  
 &emsp;&emsp;本文中介绍的ChingMuPluginForUnity插件是由上海青瞳视觉自行研发的，此插件可以实时接收青瞳动捕server的动作捕捉数据与刚体追踪数据，然后将收到的数据应用在unity的游戏对象上。
-## 二、插件在Unity 5.6 中的使用
+## 二、插件在Unity 2017 中的使用
 ### 1.安装插件
-&emsp;&emsp;将ChingMuPluginForUnity5.6.unitypackage包导入unity5.6.3或unity5.6.3以上的版本。
+&emsp;&emsp;将ChingMuPluginForUnity2017.unitypackage包导入unity2017.2或unity2017.2以上的版本。
 <p align="center"> <img src="./doc/Images/导入插件.png"></p>  
 <p align="center">图 1-1 导入插件</p> 
 
