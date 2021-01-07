@@ -35,7 +35,7 @@ public class humanbody : MonoBehaviour {
         //pos：根骨骼关节Hip的世界空间下的位置信息；
         //rot：长度为23的Quaternion[]数组，表示相对于父关节的localrotation相对旋转信息。
 
-        bool IsTrackedHuman = CMUnity.CMHumanAttitude(Config.Instance.ServerIP, Config.Instance.CMTrackPreset.Humans[0], out pos,  rot, isSegmentDetected);
+        bool IsTrackedHuman = CMVrpn.CMHumanAttitude(Config.Instance.ServerIP, Config.Instance.CMTrackPreset.Humans[0], out pos,  rot, isSegmentDetected);
 
 
 

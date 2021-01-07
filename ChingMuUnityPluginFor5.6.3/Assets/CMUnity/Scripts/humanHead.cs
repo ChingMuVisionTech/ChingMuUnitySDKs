@@ -24,12 +24,12 @@ public class humanHead : MonoBehaviour
 
     void FixedUpdate()
     {
-        CMUnity.DevicePose pose; 
+        CMVrpn.DevicePose pose; 
         pose.position = InputTracking.GetLocalPosition(VRNode.CenterEye);
         pose.orientation = InputTracking.GetLocalRotation(VRNode.CenterEye);
 
-        trackerPos = CMUnity.CMPosWithImu(Config.Instance.ServerIP, 100 + 24 * (Config.Instance.CMTrackPreset.Humans[0] + 1) - 1, pose);
-        trackerRot = CMUnity.CMQuatWithImu(Config.Instance.ServerIP, 100 + 24 * (Config.Instance.CMTrackPreset.Humans[0] + 1) - 1, pose);
+        trackerPos = CMVrpn.CMPosWithImu(Config.Instance.ServerIP, 100 + 24 * (Config.Instance.CMTrackPreset.Humans[0] + 1) - 1, pose);
+        trackerRot = CMVrpn.CMQuatWithImu(Config.Instance.ServerIP, 100 + 24 * (Config.Instance.CMTrackPreset.Humans[0] + 1) - 1, pose);
 
 
         actualRotation = trackerRot * pose.orientation;

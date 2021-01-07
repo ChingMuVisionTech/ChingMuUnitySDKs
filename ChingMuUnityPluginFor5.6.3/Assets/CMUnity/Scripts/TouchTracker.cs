@@ -48,8 +48,8 @@ public class TouchTracker : MonoBehaviour
         //TouchPreQuat = OVRInput.GetLocalControllerRotation(touchConctroller);
         //print(TouchPreQuat.eulerAngles);
         // 获取追踪体位置和旋转信息，第一个参数代表追踪系统的IP，第二个参数代表追踪体ID，第三个参数是oculus陀螺仪信息
-        Pos = CMUnity.CMPosOfTouch(Config.Instance.ServerIP, TrackerID, TouchPreQuat);
-        Rot = CMUnity.CMQuatOfTouch(Config.Instance.ServerIP, TrackerID, TouchPreQuat);
+        Pos = CMVrpn.CMPosOfTouch(Config.Instance.ServerIP, TrackerID, TouchPreQuat);
+        Rot = CMVrpn.CMQuatOfTouch(Config.Instance.ServerIP, TrackerID, TouchPreQuat);
 
         transform.position = Pos;
         transform.rotation = Rot;

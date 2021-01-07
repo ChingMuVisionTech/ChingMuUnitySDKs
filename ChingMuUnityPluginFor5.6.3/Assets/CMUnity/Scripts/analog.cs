@@ -17,7 +17,7 @@ public class analog : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		// get analog value
-		CMUnity.CMAnalog(serverName + "@" + serverIP, analogID);
+		CMVrpn.CMAnalog(serverName + "@" + serverIP, analogID);
 
 	}
 }

@@ -17,8 +17,8 @@ public class button : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		// get button state
-		CMUnity.CMButton(serverName + "@" + serverIP, buttonID);
-		//bool state = CMUnity.CMButton(serverName + "@" + serverIP, buttonID);
+		CMVrpn.CMButton(serverName + "@" + serverIP, buttonID);
+		//bool state = CMVrpn.CMButton(serverName + "@" + serverIP, buttonID);
 
 	}
 }

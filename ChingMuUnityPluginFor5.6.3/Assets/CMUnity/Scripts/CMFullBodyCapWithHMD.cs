@@ -10,7 +10,7 @@ public class CMFullBodyCapWithHMD : MonoBehaviour
     public Transform CharacterHeadTrans;
     public Transform OVRCameraRig;
 
-    CMUnity.DevicePose pose;
+    CMVrpn.DevicePose pose;
     float offset_y = 0.1f;
     void Start()
     {
@@ -30,7 +30,7 @@ public class CMFullBodyCapWithHMD : MonoBehaviour
         pose.position = InputTracking.GetLocalPosition(VRNode.Head);
         pose.orientation = InputTracking.GetLocalRotation(VRNode.Head);
   
-        Quaternion ChingMU_hmd_Rot = CMUnity.CMQuatWithImu(Config.Instance.ServerIP, 100 + 24 * (Config.Instance.CMTrackPreset.Humans[0] + 1) - 1, pose);
+        Quaternion ChingMU_hmd_Rot = CMVrpn.CMQuatWithImu(Config.Instance.ServerIP, 100 + 24 * (Config.Instance.CMTrackPreset.Humans[0] + 1) - 1, pose);
         OVRCameraRig.rotation = ChingMU_hmd_Rot;
         OVRCameraRig.position = CharacterHeadTrans.position + new Vector3(0, offset_y, 0);
     }

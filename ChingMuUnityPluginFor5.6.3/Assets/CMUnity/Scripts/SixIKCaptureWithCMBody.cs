@@ -31,7 +31,7 @@ public class SixIKCaptureWithCMBody : MonoBehaviour
 
     bool ScaleCharacter(string server, int hipBodyId)
     {
-        float humanHipHeight = CMUnity.CMPos(server, hipBodyId).y;
+        float humanHipHeight = CMVrpn.CMPos(server, hipBodyId).y;
         if (humanHipHeight > 0.6f)
         {
             ScaleHuman(characterHipHeight, humanHipHeight);
@@ -62,30 +62,30 @@ public class SixIKCaptureWithCMBody : MonoBehaviour
     private void FixedUpdate()
     {
         //设置BodyMass;
-        Vector3 HipPos_w = CMUnity.CMPos(Config.Instance.ServerIP, Config.Instance.CMTrackPreset.Bodies[1]);
-        Quaternion HipRotation_w = CMUnity.CMQuat(Config.Instance.ServerIP, Config.Instance.CMTrackPreset.Bodies[1]);
+        Vector3 HipPos_w = CMVrpn.CMPos(Config.Instance.ServerIP, Config.Instance.CMTrackPreset.Bodies[1]);
+        Quaternion HipRotation_w = CMVrpn.CMQuat(Config.Instance.ServerIP, Config.Instance.CMTrackPreset.Bodies[1]);
         hipTrans.position = HipPos_w;
 
         //设置LeftHand;
-        Vector3 LeftHandPos_w = CMUnity.CMPos(Config.Instance.ServerIP, Config.Instance.CMTrackPreset.Bodies[2]);
-        Quaternion LeftHandQua_w = CMUnity.CMQuat(Config.Instance.ServerIP, Config.Instance.CMTrackPreset.Bodies[2]);
+        Vector3 LeftHandPos_w = CMVrpn.CMPos(Config.Instance.ServerIP, Config.Instance.CMTrackPreset.Bodies[2]);
+        Quaternion LeftHandQua_w = CMVrpn.CMQuat(Config.Instance.ServerIP, Config.Instance.CMTrackPreset.Bodies[2]);
         leftHandTrans.position = LeftHandPos_w;
 
 
         //设置RightHand;
-        Vector3 rightHandPos_w = CMUnity.CMPos(Config.Instance.ServerIP, Config.Instance.CMTrackPreset.Bodies[3]);
-        Quaternion rightHandQua_w = CMUnity.CMQuat(Config.Instance.ServerIP, Config.Instance.CMTrackPreset.Bodies[3]);
+        Vector3 rightHandPos_w = CMVrpn.CMPos(Config.Instance.ServerIP, Config.Instance.CMTrackPreset.Bodies[3]);
+        Quaternion rightHandQua_w = CMVrpn.CMQuat(Config.Instance.ServerIP, Config.Instance.CMTrackPreset.Bodies[3]);
         rightHandTrans.position = rightHandPos_w;
 
 
         //设置LeftFoot;
-        Vector3 leftFootPos_w = CMUnity.CMPos(Config.Instance.ServerIP, Config.Instance.CMTrackPreset.Bodies[4]);
-        Quaternion leftFootQua_w = CMUnity.CMQuat(Config.Instance.ServerIP, Config.Instance.CMTrackPreset.Bodies[4]);
+        Vector3 leftFootPos_w = CMVrpn.CMPos(Config.Instance.ServerIP, Config.Instance.CMTrackPreset.Bodies[4]);
+        Quaternion leftFootQua_w = CMVrpn.CMQuat(Config.Instance.ServerIP, Config.Instance.CMTrackPreset.Bodies[4]);
         leftFootTrans.position = leftFootPos_w;
 
         //设置RightFoot;
-        Vector3 rightFootPos_w = CMUnity.CMPos(Config.Instance.ServerIP, Config.Instance.CMTrackPreset.Bodies[5]);
-        Quaternion rightFootQua_w = CMUnity.CMQuat(Config.Instance.ServerIP, Config.Instance.CMTrackPreset.Bodies[5]);
+        Vector3 rightFootPos_w = CMVrpn.CMPos(Config.Instance.ServerIP, Config.Instance.CMTrackPreset.Bodies[5]);
+        Quaternion rightFootQua_w = CMVrpn.CMQuat(Config.Instance.ServerIP, Config.Instance.CMTrackPreset.Bodies[5]);
         rightFootTrans.position = rightFootPos_w;
     }
     */
@@ -102,30 +102,30 @@ public class SixIKCaptureWithCMBody : MonoBehaviour
         {
 
             //设置BodyMass;
-            Vector3 HipPos_w = CMUnity.CMPos(Config.Instance.ServerIP, Config.Instance.CMTrackPreset.Bodies[1]);
-            Quaternion HipRotation_w = CMUnity.CMQuat(Config.Instance.ServerIP, Config.Instance.CMTrackPreset.Bodies[1]);
+            Vector3 HipPos_w = CMVrpn.CMPos(Config.Instance.ServerIP, Config.Instance.CMTrackPreset.Bodies[1]);
+            Quaternion HipRotation_w = CMVrpn.CMQuat(Config.Instance.ServerIP, Config.Instance.CMTrackPreset.Bodies[1]);
             animator.bodyPosition = new Vector3(HipPos_w.x, HipPos_w.y - RealHuamnMassOffset, HipPos_w.z);
             animator.bodyRotation = HipRotation_w;
 
 
             //设置head;
-            Vector3 HeadPos_w = CMUnity.CMPos(Config.Instance.ServerIP, Config.Instance.CMTrackPreset.Bodies[0]);
-            Quaternion HeadRotation_w = CMUnity.CMQuat(Config.Instance.ServerIP, Config.Instance.CMTrackPreset.Bodies[0]);
+            Vector3 HeadPos_w = CMVrpn.CMPos(Config.Instance.ServerIP, Config.Instance.CMTrackPreset.Bodies[0]);
+            Quaternion HeadRotation_w = CMVrpn.CMQuat(Config.Instance.ServerIP, Config.Instance.CMTrackPreset.Bodies[0]);
             Quaternion newq = Quaternion.Inverse(HipRotation_w) * HeadRotation_w;
             animator.SetBoneLocalRotation(HumanBodyBones.Head, newq);
 
 
             //设置LeftHand;
-            Vector3 LeftHandPos_w = CMUnity.CMPos(Config.Instance.ServerIP, Config.Instance.CMTrackPreset.Bodies[2]);
-            Quaternion LeftHandQua_w = CMUnity.CMQuat(Config.Instance.ServerIP, Config.Instance.CMTrackPreset.Bodies[2]);
+            Vector3 LeftHandPos_w = CMVrpn.CMPos(Config.Instance.ServerIP, Config.Instance.CMTrackPreset.Bodies[2]);
+            Quaternion LeftHandQua_w = CMVrpn.CMQuat(Config.Instance.ServerIP, Config.Instance.CMTrackPreset.Bodies[2]);
             animator.SetIKPosition(AvatarIKGoal.LeftHand, LeftHandPos_w);
             animator.SetIKPositionWeight(AvatarIKGoal.LeftHand, 1);
 
 
 
             //设置RightHand;
-            Vector3 rightHandPos_w = CMUnity.CMPos(Config.Instance.ServerIP, Config.Instance.CMTrackPreset.Bodies[3]);
-            Quaternion rightHandQua_w = CMUnity.CMQuat(Config.Instance.ServerIP, Config.Instance.CMTrackPreset.Bodies[3]);
+            Vector3 rightHandPos_w = CMVrpn.CMPos(Config.Instance.ServerIP, Config.Instance.CMTrackPreset.Bodies[3]);
+            Quaternion rightHandQua_w = CMVrpn.CMQuat(Config.Instance.ServerIP, Config.Instance.CMTrackPreset.Bodies[3]);
             animator.SetIKPosition(AvatarIKGoal.RightHand, rightHandPos_w);
             animator.SetIKPositionWeight(AvatarIKGoal.RightHand, 1);
 
@@ -133,9 +133,9 @@ public class SixIKCaptureWithCMBody : MonoBehaviour
 
 
             //设置LeftFoot;
-            Vector3 Lpos = CMUnity.CMPos(Config.Instance.ServerIP, Config.Instance.CMTrackPreset.Bodies[4]);
+            Vector3 Lpos = CMVrpn.CMPos(Config.Instance.ServerIP, Config.Instance.CMTrackPreset.Bodies[4]);
             Vector3 leftFootPos_w = new Vector3(Lpos.x, Lpos.y - RealHuamnMassOffset, Lpos.z);
-            Quaternion leftFootQua_w = CMUnity.CMQuat(Config.Instance.ServerIP, Config.Instance.CMTrackPreset.Bodies[4]);
+            Quaternion leftFootQua_w = CMVrpn.CMQuat(Config.Instance.ServerIP, Config.Instance.CMTrackPreset.Bodies[4]);
             animator.SetIKPosition(AvatarIKGoal.LeftFoot, leftFootPos_w);
             animator.SetIKPositionWeight(AvatarIKGoal.LeftFoot, 1);
             //animator.SetBoneLocalRotation(HumanBodyBones.LeftFoot, saveCharacterLeftFootRot);
@@ -143,9 +143,9 @@ public class SixIKCaptureWithCMBody : MonoBehaviour
 
 
             //设置RightFoot;
-            Vector3 Rpos = CMUnity.CMPos(Config.Instance.ServerIP, Config.Instance.CMTrackPreset.Bodies[5]);
+            Vector3 Rpos = CMVrpn.CMPos(Config.Instance.ServerIP, Config.Instance.CMTrackPreset.Bodies[5]);
             Vector3 rightFootPos_w = new Vector3(Rpos.x, Rpos.y - RealHuamnMassOffset, Rpos.z);
-            Quaternion rightFootQua_w = CMUnity.CMQuat(Config.Instance.ServerIP, Config.Instance.CMTrackPreset.Bodies[5]);
+            Quaternion rightFootQua_w = CMVrpn.CMQuat(Config.Instance.ServerIP, Config.Instance.CMTrackPreset.Bodies[5]);
             animator.SetIKPosition(AvatarIKGoal.RightFoot, rightFootPos_w);
             animator.SetIKPositionWeight(AvatarIKGoal.RightFoot, 1);
             //animator.SetBoneLocalRotation(HumanBodyBones.RightFoot, saveCharacterRightFootRot);

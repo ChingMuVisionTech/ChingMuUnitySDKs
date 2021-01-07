@@ -113,8 +113,8 @@ public class OnlyOculusTouch : MonoBehaviour
     {
 
         // 获取追踪体位置和旋转信息，第一个参数代表追踪系统的IP，第二个参数代表追踪体ID，第三个参数是oculus陀螺仪信息
-        Pos = CMUnity.CMPos(ServerIP, TrackerID);
-        Rot = CMUnity.CMQuat(ServerIP, TrackerID);
+        Pos = CMVrpn.CMPos(ServerIP, TrackerID);
+        Rot = CMVrpn.CMQuat(ServerIP, TrackerID);
 
         transform.localPosition = Pos;
         transform.localRotation = Rot;
