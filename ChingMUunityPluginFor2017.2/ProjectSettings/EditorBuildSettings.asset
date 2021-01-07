@@ -5,7 +5,6 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
-    path: Assets/CMUnity/Scenes/TestQuest.unity
-    guid: 0a01d4bc4403c8c49b2ec7c997ee1863
-  m_configObjects: {}
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000

@@ -242,7 +242,7 @@
     <Compile Include="Assets\CMUnity\Scripts\button.cs" />
     <Compile Include="Assets\CMUnity\Scripts\ChingMU_HumanBones.cs" />
     <Compile Include="Assets\CMUnity\Scripts\CMFullBodyCapWithHMD.cs" />
-    <Compile Include="Assets\CMUnity\Scripts\CMUnity.cs" />
+    <Compile Include="Assets\CMUnity\Scripts\CMVrpn.cs" />
     <Compile Include="Assets\CMUnity\Scripts\Config.cs" />
     <Compile Include="Assets\CMUnity\Scripts\Fps.cs" />
     <Compile Include="Assets\CMUnity\Scripts\humanbody.cs" />
