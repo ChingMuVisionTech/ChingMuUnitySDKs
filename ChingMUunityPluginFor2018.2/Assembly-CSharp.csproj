@@ -65,7 +65,7 @@
     <Compile Include="Assets\CMUnity\Scripts\button.cs" />
     <Compile Include="Assets\CMUnity\Scripts\ChingMU_HumanBones.cs" />
     <Compile Include="Assets\CMUnity\Scripts\CMFullBodyCapWithHMD.cs" />
-    <Compile Include="Assets\CMUnity\Scripts\CMUnity.cs" />
+    <Compile Include="Assets\CMUnity\Scripts\CMVrpn.cs" />
     <Compile Include="Assets\CMUnity\Scripts\Config.cs" />
     <Compile Include="Assets\CMUnity\Scripts\Fps.cs" />
     <Compile Include="Assets\CMUnity\Scripts\humanbody.cs" />
@@ -86,16 +86,16 @@
     <None Include="Assets\CMUnity\Resources\Shaders\HideSoldierCharacterHead.shader" />
     <None Include="Assets\CMUnity\Resources\Shaders\Highlight.shader" />
     <Reference Include="UnityEditor.StandardEvents">
-      <HintPath>F:/UnityProjects/ChingMuUnitySdk/ChingMUunityPluginFor2018.2/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+      <HintPath>E:/MyBock/2018/ChingMUunityPluginFor2018.2/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>F:/UnityProjects/ChingMuUnitySdk/ChingMUunityPluginFor2018.2/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>E:/MyBock/2018/ChingMUunityPluginFor2018.2/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>F:/UnityProjects/ChingMuUnitySdk/ChingMUunityPluginFor2018.2/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>E:/MyBock/2018/ChingMUunityPluginFor2018.2/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>F:/UnityProjects/ChingMuUnitySdk/ChingMUunityPluginFor2018.2/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>E:/MyBock/2018/ChingMUunityPluginFor2018.2/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>D:/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>

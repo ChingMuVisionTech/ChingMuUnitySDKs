@@ -11,9 +11,9 @@ public class HumanbodyRetarget : MonoBehaviour {
     bool[] isBoneDetected = new bool[150];//150
     List<Transform> HuamnJointTrans;
 
-    CMUnity.VrpnHierarchy CurCharacterHierResult;
-    CMUnity.VrpnHierarchy CurCharacterHier;
-    CMUnity.UpdateHierarchyCallback GetCurHierCallback;
+    CMVrpn.VrpnHierarchy CurCharacterHierResult;
+    CMVrpn.VrpnHierarchy CurCharacterHier;
+    CMVrpn.UpdateHierarchyCallback GetCurHierCallback;
     IntPtr callback_args;
 
 
@@ -46,8 +46,8 @@ public class HumanbodyRetarget : MonoBehaviour {
             UnityCharAllTransNodeAndNameMap.Add(var.gameObject.name, var);
         }
 
-        CurCharacterHier = new CMUnity.VrpnHierarchy();
-        CurCharacterHierResult = new CMUnity.VrpnHierarchy();
+        CurCharacterHier = new CMVrpn.VrpnHierarchy();
+        CurCharacterHierResult = new CMVrpn.VrpnHierarchy();
 
         callback_args = Marshal.AllocHGlobal(Marshal.SizeOf(CurCharacterHier));
         GetCurHierCallback = GetClientThisHumanHierarchy;
@@ -57,7 +57,7 @@ public class HumanbodyRetarget : MonoBehaviour {
 
     bool RegisterCallback_IsFinished()
     {
-        bool IsFinished = CMUnity.CMPluginRegisterUpdateHierarchy(ServerID, callback_args, GetCurHierCallback);
+        bool IsFinished = CMVrpn.CMPluginRegisterUpdateHierarchy(ServerID, callback_args, GetCurHierCallback);
         return !IsFinished;
     }
     IEnumerator AsyRegisterCallBack_GetVrpnDataOrder()
@@ -67,7 +67,7 @@ public class HumanbodyRetarget : MonoBehaviour {
         IsRegisterCallBack_Finished = true;
     }
 
-    void GetClientThisHumanHierarchy(IntPtr CallBackFun_agrs, CMUnity.VrpnHierarchy CurHierarchy)
+    void GetClientThisHumanHierarchy(IntPtr CallBackFun_agrs, CMVrpn.VrpnHierarchy CurHierarchy)
     {
         CurCharacterHierResult = CurHierarchy;
         //Debug.Log("InClient Current node, name,id,ParentID; "+ CurCharacterHierResult.name +"    " +CurCharacterHierResult.sensor+"    "+CurCharacterHierResult.parent);
@@ -96,7 +96,7 @@ public class HumanbodyRetarget : MonoBehaviour {
          这个事件就是，遍历追踪client场景里的所有对象（刚体，与huamn中的每个网格对象，以及骨骼节点对象），当遍历每个对象时就会调用事先注册的回调函数，把当前遍历的节点信息通过回调函数返回
          */
         //用重定向数据驱动
-        bool IsTrackedHuman = CMUnity.CMRetargetHuman(ServerID, ObjectID_InCMTrackSence, JointWorldPos, JointWorldRot, isBoneDetected);
+        bool IsTrackedHuman = CMVrpn.CMRetargetHuman(ServerID, ObjectID_InCMTrackSence, JointWorldPos, JointWorldRot, isBoneDetected);
         if (IsTrackedHuman && IsRegisterCallBack_Finished)
         {
             for (int i = 0; i < CharAllTransNode.Count; i++)
