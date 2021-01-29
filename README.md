@@ -1,32 +1,7 @@
-# ChingMuPluginForUnity2018
-¹¦ÄÜÃèÊö£ºÔÚunityÖÐÊ¹ÓÃÇàÍ«¸ÕÌå×·×ÙÓëÈ«Éí¶¯²¶
-Êý¾ÝÁ÷°üÀ¨£ºÊµÊ±ÈËÎï¹Ø½ÚÊý¾ÝºÍ¸ÕÌåµÄÊý¾Ý  
-## Ò»¡¢¼ò½é  
-&emsp;&emsp;±¾ÎÄÖÐ½éÉÜµÄChingMuPluginForUnity²å¼þÊÇÓÉÉÏº£ÇàÍ«ÊÓ¾õ×ÔÐÐÑÐ·¢µÄ£¬´Ë²å¼þ¿ÉÒÔÊµÊ±½ÓÊÕÇàÍ«¶¯²¶serverµÄ¶¯×÷²¶×½Êý¾ÝÓë¸ÕÌå×·×ÙÊý¾Ý£¬È»ºó½«ÊÕµ½µÄÊý¾ÝÓ¦ÓÃÔÚunityµÄÓÎÏ·¶ÔÏóÉÏ¡£
-## ¶þ¡¢²å¼þÔÚUnity 2018 ÖÐµÄÊ¹ÓÃ
-### 1.°²×°²å¼þ
-&emsp;&emsp;½«ChingMuPluginForUnity2018.unitypackage°üµ¼Èëunity2018.2.0»òunity2018.2.0ÒÔÉÏµÄ°æ±¾¡£
-<p align="center"> <img src="./doc/Images/µ¼Èë²å¼þ.png"></p>  
-<p align="center">Í¼ 1-1 µ¼Èë²å¼þ</p> 
+# ChingMU Unity Sdk plugin projectçš„ä½¿ç”¨è¯´æ˜Ž
 
-### 2.ÔÚ×·×ÙclientÀïÃæÌí¼Ó¶¯²¶ÑÝÔ±Óë¸ÕÌå
-&emsp;&emsp;ÈçÏÂÍ¼ËùÊ¾¡£  
-<p align="center"> <img src="./doc/Images/Ìí¼ÓÈËÎï.png"></p>  
-<p align="center">Í¼ 2-1 Ìí¼ÓÈËÎï</p>  
-
-<p align="center"> <img src="./doc/Images/Ìí¼Ó¸ÕÌå.png"></p>  
-<p align="center">Í¼ 2-2 Ìí¼Ó¸ÕÌå</p>  
-
-
-### 3.ÐÞ¸ÄÅäÖÃÎÄ¼þ
-&emsp;&emsp;ÐÞ¸ÄÅäÖÃÎÄ¼þConfig.json¡£  
-<p align="center"> <img src="./doc/Images/ÐÞ¸ÄÅäÖÃÎÄ¼þ.png"></p>  
-<p align="center">Í¼ 3-1 ÐÞ¸ÄÅäÖÃÎÄ¼þ</p> 
-
-### 4.´ò¿ª²å¼þÖÐµÄdemo³¡¾°
-<p align="center"> <img src="./doc/Images/²å¼þdemo³¡¾°.png"></p>  
-<p align="center">Í¼ 4-1 ²å¼þdemo³¡¾°</p> 
-
-&emsp;&emsp;ÆäËû¾ßÌå²Ù×÷²é¿´²å¼þÊ¹ÓÃ°ïÖúÎÄµµ  
-<p align="center"> <img src="./doc/Images/²å¼þÎÄµµ.png"></p>  
-<p align="center">Í¼ 4-2 ²å¼þÎÄµµ</p> 
+### 1 ç‰ˆæœ¬è¯´æ˜Ž
+æœ¬å·¥ç¨‹æ˜¯åŸºäºŽUnity2018.2çš„å®Œæ•´unityå·¥ç¨‹ã€‚VSç‰ˆæœ¬æ˜¯2017ã€‚
+### 2 å¼€å§‹ä½¿ç”¨è¿™ä¸ªå·¥ç¨‹
+ï¼ˆ1ï¼‰ä»ŽGitHubä¸Šä¸‹è½½æ­¤å·¥ç¨‹<br>
+ï¼ˆ2ï¼‰ç„¶åŽç”¨Unity2018.2ä»¥ä¸Šçš„ç‰ˆæœ¬æ‰“å¼€æ­¤å·¥ç¨‹ã€‚
