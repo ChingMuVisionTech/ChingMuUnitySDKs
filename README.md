@@ -12,7 +12,7 @@
 ### 3 如何开始
 
 （1）在Git上下载你需要的ChingMuPluginFouUnity.unitypackage，如下图所示：<br>
-![](https://github.com/ChingMuVisionTech/ChingMuUnitySDKs/blob/main/images/UnityPlugin_description_01.png)<br>
+![](https://github.com/ChingMuVisionTech/ChingMuUnitySDKs/blob/main/images/UnityPlugin_description_01.png)
 
 （2）将下载好的ChingMuPluginFouUnity.unitypackage导入到对应版本的Unity，如下图所示：<br>
 <img src="./images/UnityPlugin_description_02.png" width="685px" height="513px" title="导入插件"/><br>
