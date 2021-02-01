@@ -12,7 +12,7 @@
 ### 3 如何开始
 
 （1）在Git上下载CMPluginForUnity <br>
-<img src="./imgs/UnityPlugin_description_01.png" width="58%" height="58%" title="Git上下载ChingMuPluginForUnity.unitypackage"/><br>
+<img src="./images/UnityPlugin_description_01.png" width="58%" height="58%" title="Git上下载ChingMuPluginForUnity.unitypackage"/><br>
 
 （2）解压，找到插件的使用帮助文档，跟随文档里面的方法与步骤就可以简单上手插件中相关功能的使用<br>
 <img src="./imgs/UnityPlugin_description_02.png" width="685px" height="513px" title="打开插件使用帮助文档"/><br>
