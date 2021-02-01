@@ -11,9 +11,14 @@
 
 ### 3 如何开始
 
-（1）在Git上下载CMPluginForUnity <br>
+（1）在Git上下载你需要的ChingMuPluginFouUnity.unitypackage，如下图所示：<br>
 <img src="./images/UnityPlugin_description_01.png" width="58%" height="58%" title="Git上下载ChingMuPluginForUnity.unitypackage"/><br>
 
-（2）解压，找到插件的使用帮助文档，跟随文档里面的方法与步骤就可以简单上手插件中相关功能的使用<br>
-<img src="./imgs/UnityPlugin_description_02.png" width="685px" height="513px" title="打开插件使用帮助文档"/><br>
-<img src="./imgs/UnityPlugin_description_03.png" width="685px" height="513px" title="插件使用帮助文档目录"/>
+（2）将下载好的ChingMuPluginFouUnity.unitypackage导入到对应版本的Unity，如下图所示：<br>
+<img src="./images/UnityPlugin_description_02.png" width="685px" height="513px" title="导入插件"/><br>
+
+（3）找到并打开 青瞳动捕系统在Unity3D中的使用帮助文档，如下图所示：<br>
+<img src="./images/UnityPlugin_description_03.png" width="685px" height="513px" title="打开插件使用帮助文档"/><br>
+
+（4）跟随文档中的目录章节，学习如何使用插件中的提供的相关功能<br>
+<img src="./images/UnityPlugin_description_04.png" width="685px" height="513px" title="文档中的目录"/><br>
