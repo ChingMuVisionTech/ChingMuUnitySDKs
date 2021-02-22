@@ -21,4 +21,4 @@
 <img src="./images/UnityPlugin_description_03.png" width="750px" height="250px" title="打开插件使用帮助文档"/><br>
 
 （4）跟随文档中的目录章节，学习插件中提供的相关功能。<br>
-<img src="./images/UnityPlugin_description_04.png" width="700px" height="200px" title="文档中的目录"/><br>
+<img src="./images/UnityPlugin_description_04.png" width="700px" height="250px" title="文档中的目录"/><br>
