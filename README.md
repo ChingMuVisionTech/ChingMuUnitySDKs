@@ -15,10 +15,10 @@
 <img src="./images/UnityPlugin_description_01.png" width="685px" height="450px" title="下载插件"/><br>
 
 （2）将下载好的ChingMuPluginFouUnity.unitypackage导入到对应版本的Unity，如下图所示：<br>
-<img src="./imgs/UnityPlugin_description_02.png" width="700px" height="450px" title="导入插件"/><br>
+<img src="./images/UnityPlugin_description_02.png" width="700px" height="450px" title="导入插件"/><br>
 
 （3）找到并打开 青瞳Unity使用帮助手册，如下图所示：<br>
-<img src="./imgs/UnityPlugin_description_03.png" width="750px" height="250px" title="打开插件使用帮助文档"/><br>
+<img src="./images/UnityPlugin_description_03.png" width="750px" height="250px" title="打开插件使用帮助文档"/><br>
 
 （4）跟随文档中的目录章节，学习插件中提供的相关功能。<br>
-<img src="./imgs/UnityPlugin_description_04.png" width="700px" height="200px" title="文档中的目录"/><br>
+<img src="./images/UnityPlugin_description_04.png" width="700px" height="200px" title="文档中的目录"/><br>
