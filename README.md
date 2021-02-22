@@ -2,8 +2,8 @@
 
 ### 1 引言
 
-(1)ChingMU Unity插件提供了青瞳动捕在Unity中的各种功能API接口。<br>
-(2)ChingMU Unity插件支持多个Unity版本，目前有ChingMU plugin for Unity5.6,Unity2017,Unity2018,Unity2019四个版本在迭代更新。
+（1）ChingMU Unity插件提供了青瞳动捕在Unity中的各种功能API接口。<br>
+（2）ChingMU Unity插件支持多个Unity版本，目前有ChingMU plugin for Unity5.6,Unity2017,Unity2018,Unity2019四个版本在迭代更新。
 
 ### 2 用途与功能
 
