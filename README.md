@@ -1,5 +1,11 @@
 ## ChingMU Unity 插件说明
 
+**插件下载：**    
+[ChingMuPlugin For Unity5.6](https://github.com/ChingMuVisionTech/ChingMuUnitySDKs/releases/download/Unity5.6.3/ChingMuPluginForUnity5.6.3.unitypackage)   
+[ChingMuPlugin For Unity2017](https://github.com/ChingMuVisionTech/ChingMuUnitySDKs/releases/download/Unity2017.2/ChingMuPluginForUnity2017.2.unitypackage)      
+[ChingMuPlugin For Unity2018](https://github.com/ChingMuVisionTech/ChingMuUnitySDKs/releases/download/unity2018.2/ChingMuPluginForUnity2018.2.unitypackage)      
+[ChingMuPlugin For Unity2019](https://github.com/ChingMuVisionTech/ChingMuUnitySDKs/releases/download/unity2019.2/ChingMuPluginForUnity2019.2.unitypackage)
+
 ### 1 引言
 
 （1）ChingMU Unity插件提供了青瞳动捕在Unity中的各种功能API接口。<br>
