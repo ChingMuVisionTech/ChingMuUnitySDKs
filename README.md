@@ -9,6 +9,7 @@
 [ChingMuPlugin For Unity2021](https://github.com/ChingMuVisionTech/ChingMuUnitySDKs/releases/download/Unity2021.1/ChingMuPluginForUnity2021.1.unitypackage)   
 [ChingMuPlugin For Unity2021](https://github.com/ChingMuVisionTech/ChingMuUnitySDKs/releases/download/Unity2021.1/ChingMuPluginForUnity2021.1.unitypackage)
 -->
+[ChingMuPlugin For Unity3d](https://objects.githubusercontent.com/github-production-release-asset-2e65be/327518980/de215245-6792-4b5b-85f1-be15df65fd1d?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20220909%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20220909T064041Z&X-Amz-Expires=300&X-Amz-Signature=dfa914acd091664773de921b6140d4d44a9313e1996ff858d6a11490e849abfe&X-Amz-SignedHeaders=host&actor_id=8847765&key_id=0&repo_id=327518980&response-content-disposition=attachment%3B%20filename%3DChingMuPluginForUnity.unitypackage&response-content-type=application%2Foctet-stream)
 
 ### 1 引言
 
