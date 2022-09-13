@@ -9,7 +9,7 @@
 [ChingMuPlugin For Unity2021](https://github.com/ChingMuVisionTech/ChingMuUnitySDKs/releases/download/Unity2021.1/ChingMuPluginForUnity2021.1.unitypackage)   
 [ChingMuPlugin For Unity2021](https://github.com/ChingMuVisionTech/ChingMuUnitySDKs/releases/download/Unity2021.1/ChingMuPluginForUnity2021.1.unitypackage)
 -->
-[ChingMuPlugin For Unity3d](https://github.com/ChingMuVisionTech/ChingMuUnitySDKs/releases/download/Unity3d/ChingMuPluginForUnity.unitypackage)
+[ChingMuPlugin For Unity3d](https://github.com/ChingMuVisionTech/ChingMuUnitySDKs/releases/download/Unity3d/ChingMu_Unity3d.unitypackage)
 
 ### 1 引言
 
