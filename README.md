@@ -11,6 +11,8 @@
 -->
 [ChingMuPlugin For Unity3d](https://github.com/ChingMuVisionTech/ChingMuUnitySDKs/releases/download/Unity3d/ChingMu_Unity3d.unitypackage)
 
+[插件操作手册](https://github.com/ChingMuVisionTech/ChingMuUnitySDKs/releases/download/unity/for.Unity.doc)
+
 ### 1 引言
 
 （1）ChingMU Unity插件提供了青瞳动捕在Unity中的各种功能API接口。<br>
