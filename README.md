@@ -11,7 +11,7 @@
 -->
 [ChingMu SDK for Unity 2.0](https://github.com/ChingMuVisionTech/ChingMuUnitySDKs/releases/download/v2.0.0/ChingMu.SDK.for.Unity.2.0.unitypackage)
 
-[插件帮助文档](https://github.com/ChingMuVisionTech/ChingMuUnitySDKs/releases/download/unity/for.Unity.doc)
+[插件帮助文档](https://github.com/ChingMuVisionTech/ChingMuUnitySDKs/releases/download/unity/ChingMu.SDK.for.Unity.2.0.pdf)
 
 ### 1 引言
 
