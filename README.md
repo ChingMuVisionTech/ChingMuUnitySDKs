@@ -25,10 +25,10 @@
 ### 3 如何开始
 
 （1）在Git下载ChingMu SDK for Unity 2.0.unitypackage，如下图所示：<br>
-<img src="./images/1662706271004.jpg" width="685px" height="450px" title="下载插件"/><br>
+<img src="./images/Github下载.png" width="685px" height="450px" title="下载插件"/><br>
 
 （2）将下载好的ChingMu SDK for Unity 2.0.unitypackage导入到对应版本的Unity，如下图所示：<br>
-<img src="./images/UnityPlugin_description_02.png" width="700px" height="450px" title="导入插件"/><br>
+<img src="./images/载入.png" width="700px" height="450px" title="导入插件"/><br>
 
 （3）跟随文档中的目录章节，学习插件中提供的相关功能。<br>
 <img src="./images/UnityPlugin_description_04.png" width="700px" height="300px" title="文档中的目录"/><br>
