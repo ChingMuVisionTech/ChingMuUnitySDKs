@@ -1,4 +1,4 @@
-## ChingMU Unity 插件说明
+## ChingMu SDK for Unity 2.0 插件说明
 
 **插件下载：**
 <!--
